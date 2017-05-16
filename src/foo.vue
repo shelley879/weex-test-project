@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
-    <div class="box">
+    <div class="box box1">
+    </div>
+    <div class="box box2">
+    </div>
+    <div class="box box3">
     </div>
   </div>
 </template>
@@ -13,13 +17,26 @@
     bottom: 0;
     left: 0;
     background-color: #cccccc;
-    justify-content: center;
-    align-items: center;
   }
   .box {
-    width: 200px;
-    height: 200px;
-    background-color: #fc0000;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+  }
+  .box1 {
+    top: 0;
+    left: 0;
+    background-color: #ff0000;
+  }
+  .box2 {
+    top: 150px;
+    left: 150px;
+    background-color: #0055dd;
+  }
+  .box3 {
+    top: 300px;
+    left: 300px;
+    background-color: #00ff49;
   }
 </style>
 
