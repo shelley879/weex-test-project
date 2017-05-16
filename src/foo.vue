@@ -1,25 +1,25 @@
 <template>
-  <div>
-    <div v-for="(v, i) in list" class="row">
-      <div v-for="(text, k) in v" class="item">
-        <div>
-          <text>{{text}}</text>
-        </div>
-      </div>
+  <div class="wrapper">
+    <div class="box">
     </div>
   </div>
 </template>
 
 <style scoped>
-  .item{
-    flex:1;
+  .wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #cccccc;
     justify-content: center;
-    align-items:center;
-    border-width:1;
+    align-items: center;
   }
-  .row{
-    flex-direction: row;
-    height:80px;
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #fc0000;
   }
 </style>
 
